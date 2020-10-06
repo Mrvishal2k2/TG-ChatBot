@@ -8,7 +8,7 @@ english_bot.set_trainer(ChatterBotCorpusTrainer)
 english_bot.train("chatterbot.corpus.english")
 
 #Setting telegram things
-tg_token='YOUR_BOT_TOKEN_HERE' # Refer README for more details
+1302593538:AAGTV28rBVMvytt_RoVDFSkxpqWqNtdW_Vg' # Refer README for more details
 import logging
 from telegram.ext import CommandHandler,MessageHandler, Filters,Updater
 updater = Updater(token=tg_token)
